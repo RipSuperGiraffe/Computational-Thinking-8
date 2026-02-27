@@ -30,8 +30,8 @@ def get_cookies () :
         cost = cost * 2
         jars += 1 
         x = random.randint (-200,200) 
-        y = random.randint ( -200,200)
-        create_sprite("jar")
+        y = random.randint ( -300,300)
+        create_sprite("jar",x, y)
 
 window.onkeypress(get_cookies, "j")
 #everytime you press c you get a cookie
